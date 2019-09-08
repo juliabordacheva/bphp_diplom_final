@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Смирнов",
+    "email": "admin@mail.ru",
+    "password": "admin",
+    "status": "admin"
+  },
+  {
+    "id": 2,
+    "name": "ivanova",
+    "email": "ivanova@mail.ru",
+    "password": "ivanova",
+    "status": "translator"
+  },
+  {
+    "id": 3,
+    "name": "petrova",
+    "email": "petrova@mail.ru",
+    "password": "petrova",
+    "status": "translator"
+  },
+  {
+    "id": 4,
+    "name": "sidorov",
+    "email": "sidorov@mail.ru",
+    "password": "sidorov",
+    "status": "translator"
+  },
+  {
+    "id": 5,
+    "name": "volnov",
+    "email": "volnov@mail.ru",
+    "password": "volnov",
+    "status": "translator"
+  }
+]

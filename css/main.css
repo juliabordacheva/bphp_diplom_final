@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Стили для формы логин*/
+.login {
+    height: 100vh;
+    width: 100vw;
+    /*background-color: blue;*/
+    background: url("../img/listik.jpg") no-repeat;
+}
+
+.login h1 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: #6F9D98;
+    font-size: 60px;
+}
+.shpargalka {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+
+}
+.form {
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    border: 1px solid #A0E1D9;
+}
+
+.form small {
+    padding-left: 25px;
+    color: palevioletred;
+}
+.login_input {
+    display: block;
+    margin: auto;
+    width: 90%;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-radius: 10px;
+    border: 1px solid #A0E1D9;
+}
+
+button {
+    display: block;
+    margin: auto;
+    /*margin-top: 40px;*/
+    height: 50px;
+    width: 130px;
+    border-radius: 10px;
+    box-shadow: none;
+    background-color: #B2AA77;
+    border: none;
+    color: #F5FFFA;
+}
+
+button:hover {
+    background-color: #A9A271;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+
+
+}
+input[placeholder] {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/*Стили для админ панели*/
+.menu_wrapper {
+
+    background: #99CDB5;
+    z-index: 100;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    color: #fff;
+    text-decoration: none;
+    transition: opacity 0.3s;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.menu_container {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu_item {
+    display: inline-block;
+    text-align: center;
+    /*width: 130px;*/
+    background-color: #487A62;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.menu_item_active, .menu_item:hover {
+    background-color: rgba(169, 160, 142, 0.6);
+    transition: 0.3s;
+}
+
+h1 {
+    font-family: 'Maven Pro', sans-serif;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    color: #0C7A71 ;
+
+}
+.menu_item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #F5FFFA;
+    line-height: 30px;
+    font-family: 'Maven Pro', sans-serif displayblock;
+    font-size: 17px;
+}
+/*Форма создания нового перевода*/
+.container {
+    display: block;
+    margin: auto;
+}
+.form_wrapper {
+    display: block;
+    margin: auto;
+
+    width: 800px;
+    background-color: #A1DEC5;
+    border-radius: 5px;
+}
+.button_close {
+    display: block;
+    text-align: right;
+}
+.button_close a {
+    display: inline-block;
+    background-color: #487A62;
+    text-decoration: none;
+    color: bisque;
+    border-radius: 4px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.form_wrapper_1, .form_wrapper_2, .form_wrapper_3, .form_wrapper_4 {
+    display: block;
+    margin: auto;
+    text-align: center;
+
+}
+
+label {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.half_wrapper {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+.half_wrapper_item {
+    display: inline-block;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+select {
+    border-radius: 5px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+input {
+    border-radius: 5px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.label-lang {
+    font-weight: normal;
+}
+.form_wrapper input[placeholder] {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.form_wrapper_2 {
+    margin-bottom: 30px;
+}
+textarea {
+    display: block;
+    width: 95%;
+    margin: 20px auto;
+    height: 350px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 30px;
+}
+ .trans_lang {
+     width: 70%;
+     margin-left: 40px;
+ }
+textarea[placeholder] {
+    border-radius: 5px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+
+
+}
+
+.form_wrapper button {
+    display: inline-block;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin: 6px;
+}
+.form_wrapper button:hover {
+    background-color: cornflowerblue;
+}
+.text_1 {
+    height: 100px;
+    margin: 10px;
+}
+.old_form_wrapper {
+    display: block;
+    margin: 40px auto;
+    width: 90%;
+    background-color: #CABDB6;
+    border-radius: 5px;
+    padding: 20px;
+}
+.deadline_data {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 700;
+    display: block;
+    text-align: right;
+    padding: 10px;
+
+}
+.lang_task {
+    display: block;
+    text-align: right;
+    padding: 10px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 30px;
+
+}
+.task-text {
+    background-color: white;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.task-status {
+    display: inline-block;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+.task-buttons {
+    display: inline-block;
+
+
+}
+.task-button {
+    display: inline;
+    background-color: #B2AA77;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 18px;
+    color: #F5FFFA;
+    margin: 10px;
+    border-radius: 10px;
+}
+.task-button_edit {
+  background-color: #6B74CA;
+
+}
+.task-button_delete {
+    background-color: #CA5F66;
+}
+.original-text {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 700;
+}
+.translation-text {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 300;
+    color: #080ECA ;
+}
+
+
+.form_wrapper_1 p {
+    font-family: 'Maven Pro', sans-serif;
+    display: inline-block;
+    padding-right: 40px;
+}
+.form_wrapper_1 .button_close {
+    display: inline-block;
+}
+
+.form_wrapper_4 .button_close {
+    display: inline-block;
+}
+
+.form_wrapper_4 button {
+    display: inline-block;
+}
+
+.content a {
+    text-decoration: none;
+    color: black;
+}
+.message {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 40px;
+    color: #CA6663;
+}

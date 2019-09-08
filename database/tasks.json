@@ -1,0 +1,68 @@
+[
+    {
+        "id": 4,
+        "status": "resolved",
+        "client": "ООО Братья Запашные",
+        "translator": "volnov@mail.ru",
+        "ref_lang": "fr",
+        "trans_lang": {
+            "2": "de"
+        },
+        "deadline": "2019-09-14",
+        "original_text_preview": "Ma famille n’est pas grande: moi, ma femme et ma fille.\r\nMa femme s’appelle Anne.\r\nElle a trente et un an.\r\nElle travaille comme professeur dans une université.\r\nElle aime bien apprendre des langues étrangères.\r\nAnne parle anglais et, en plus, elle apprend l’espagnol.\r\nMa fille s’appelle Natalie.\r\nNatalie a sept ans.\r\nElle me ressemble beaucoup.\r\nMa fille aime dessiner et écouter la musique.\r\nElle va à l’école et elle fait ses études très bien.\r\nJ’aime beaucoup ma famille.",
+        "original_text": "4.json"
+    },
+    {
+        "id": 5,
+        "status": "done",
+        "client": "ООО РЖД",
+        "translator": "ivanova@mail.ru",
+        "ref_lang": "ru",
+        "trans_lang": {
+            "1": "en"
+        },
+        "deadline": "2019-09-21",
+        "original_text_preview": "— Петр Петрович! — закричала она, — защитите хоть вы! Внушите этой глупой твари, что не смеет она так обращаться \r\n\r\nс благородной дамой в несчастии, что на это есть суд... я к самому генерал-губернатору... Она ответит... Помня \r\n\r\nхлеб-соль моего отца, защитите сирот.\r\n— Позвольте, сударыня... Позвольте, позвольте, сударыня, — отмахивался Петр Петрович, — папеньки вашего, как и \r\n\r\nизвестно вам, я совсем не имел чести знать... позвольте, сударыня! (кто-то громко захохотал), а в ваших \r\n\r\nбеспре",
+        "original_text": "5.json"
+    },
+    {
+        "id": 2,
+        "status": "new",
+        "client": "ООО Вымпелком",
+        "translator": "petrova@mail.ru",
+        "ref_lang": "en",
+        "trans_lang": {
+            "2": "de"
+        },
+        "deadline": "2019-09-23",
+        "original_text_preview": "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or \r\n\r\ntwice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, 'and \r\n\r\nwhat is the use of a book,' thought Alice 'without pictures or conversations?'\r\n\r\nSo she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and \r\n\r\nstupid), whether the pleasure of making a daisy-chain would be worth the t",
+        "original_text": "2.json"
+    },
+    {
+        "id": 3,
+        "status": "rejected",
+        "client": "ООО Строй-инвест",
+        "translator": "sidorov@mail.ru",
+        "ref_lang": "de",
+        "trans_lang": {
+            "0": "ru",
+            "3": "fr"
+        },
+        "deadline": "2019-09-24",
+        "original_text_preview": "Als Zarathustra dreissig Jahr alt war, verliess er seine Heimat und den See seiner Heimat und ging in das \r\n\r\nGebirge. Hier genoss er seines Geistes und seiner Einsamkeit und wurde dessen zehn Jahr nicht müde. Endlich aber \r\n\r\nverwandelte sich sein Herz, - und eines Morgens stand er mit der Morgenröthe auf, trat vor die Sonne hin und \r\n\r\nsprach zu ihr also:\r\n\r\n\"Du grosses Gestirn! Was wäre dein Glück, wenn du nicht Die hättest, welchen du leuchtest!\r\n\r\nZehn Jahre kamst du hier herauf zu meiner H",
+        "original_text": "3.json"
+    },
+    {
+        "id": 6,
+        "status": "new",
+        "client": "ООО Строй-инвест",
+        "translator": "ivanova@mail.ru",
+        "ref_lang": "it",
+        "trans_lang": [
+            "ru"
+        ],
+        "deadline": "2019-09-27",
+        "original_text_preview": "Nel mezzo del cammin di nostra vita\r\nmi ritrovai per una selva oscura,\r\nché la diritta via era smarrita.\r\n\r\nAhi quanto a dir qual era è cosa dura\r\nesta selva selvaggia e aspra e forte\r\nche nel pensier rinova la paura!\r\n\t\r\nTant'è amara che poco è più morte;\r\nma per trattar del ben ch'i' vi trovai,\r\ndirò de l'altre cose ch'i' v'ho scorte.\r\n\r\nIo non so ben ridir com'i' v'intrai,\r\ntant'era pien di sonno a quel punto\r\nche la verace via abbandonai.\r\n\r\nMa poi ch'i' fui al piè d'un colle giunto,\r\nlà dov",
+        "original_text": "6.json"
+    }
+]
