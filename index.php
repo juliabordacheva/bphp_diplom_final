@@ -20,6 +20,6 @@ if ($user->isLogged()) {
    include 'login.php';
 }
 ?>
-
+<footer>Юлия Бордачева BPHP-4 2019</footer>
 </body>
 </html>

@@ -354,3 +354,10 @@ textarea[placeholder] {
     font-size: 40px;
     color: #CA6663;
 }
+footer {
+    display: block;
+text-align: center;
+    color: #080ECA;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+}

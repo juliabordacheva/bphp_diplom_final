@@ -9,31 +9,31 @@
         </form>
     </div>
 
-<div class = 'shpargalka'>
-    <p>
-"email": "admin@mail.ru", <br>
-"password": "admin"
-</p>
-    <hr>
-    <p>
-"email": "ivanova@mail.ru",<br>
-"password": "ivanova"
-</p>
-    <hr>
-    <p>
-"email": "petrova@mail.ru",<br>
-"password": "petrova"
-</p>
-    <hr>
-    <p>
-"email": "sidorov@mail.ru",<br>
-"password": "sidorov"
-</p>
-    <hr>
-    <p>
-"email": "volnov@mail.ru", <br>
-"password": "volnov",
-    </p>
-    <hr>
-   </div>
-</div>
+<!--<div class = 'shpargalka'>-->
+<!--    <p>-->
+<!--"email": "admin@mail.ru", <br>-->
+<!--"password": "admin"-->
+<!--</p>-->
+<!--    <hr>-->
+<!--    <p>-->
+<!--"email": "ivanova@mail.ru",<br>-->
+<!--"password": "ivanova"-->
+<!--</p>-->
+<!--    <hr>-->
+<!--    <p>-->
+<!--"email": "petrova@mail.ru",<br>-->
+<!--"password": "petrova"-->
+<!--</p>-->
+<!--    <hr>-->
+<!--    <p>-->
+<!--"email": "sidorov@mail.ru",<br>-->
+<!--"password": "sidorov"-->
+<!--</p>-->
+<!--    <hr>-->
+<!--    <p>-->
+<!--"email": "volnov@mail.ru", <br>-->
+<!--"password": "volnov",-->
+<!--    </p>-->
+<!--    <hr>-->
+<!--   </div>-->
+<!--</div>-->
